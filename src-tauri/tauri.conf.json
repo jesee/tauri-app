@@ -13,12 +13,18 @@
     "windows": [
       {
         "title": "tauri-app",
-        "width": 800,
-        "height": 600
+        "width": 200,
+        "height": 100,
+        "resizable": true,
+        "fullscreen": false
       }
     ],
     "security": {
       "csp": null
+    },
+    "trayIcon": {
+      "iconPath": "icons/icon.png",
+      "iconAsTemplate": true
     }
   },
   "bundle": {
